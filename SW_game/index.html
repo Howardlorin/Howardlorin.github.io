@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>sw game</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <h1>Star Wars Game</h1>
+<div>
+  <p id="q1">Which was deadliest?</p>
+  <p id="q2" class="moreQuestions">Which was better?</p>
+  <p id="q3" class="moreQuestions">Which could aim better?</p>
+  <p id="q4" class="moreQuestions">What Order was the worst?</p>
+  <p id="q5" class="moreQuestions">Which class was the best?</p>
+</div>
+
+<div id="answersOne">
+  <img id="ans1_1" class="answers" onclick="rightAnswer()" src="http://img.lum.dolimg.com/v1/images/image_3104fc48.jpeg?region=246%2C0%2C1170%2C878&width=480">
+  <img id="ans1_2" class="answers" onclick="wrongAnswer()" src="http://vignette2.wikia.nocookie.net/battlefront/images/c/c6/Clone_Trooper.jpg/revision/latest?cb=20120416201756">  
+</div>
+
+<div id="answersTwo" class="moreQuestions">
+  <img id="ans2_1" class="answers" onclick="wrongAnswer()" src="http://vignette4.wikia.nocookie.net/starwars/images/a/ad/Stormtrooper-CotF.jpg/revision/latest?cb=20141218150219">
+  <img id="ans2_2" class="answers" onclick="rightAnswer()" src="http://vignette2.wikia.nocookie.net/battlefront/images/c/c6/Clone_Trooper.jpg/revision/latest?cb=20120416201756">
+</div>
+
+<div id="answersThree" class="moreQuestions">
+  <img id="ans3_1" class="answers" onclick="rightAnswer()" src="http://vignette1.wikia.nocookie.net/battlefront/images/4/43/Star-wars-battle-droid.jpg/revision/latest?cb=20111216215339">
+  <img id="ans3_2" class="answers" onclick="wrongAnswer()" src="http://img.cinemablend.com/cb/8/e/7/e/3/5/8e7e35cf9777f94ab1f5e51bcdec49214e4ffb2c33f4c575ba4bbb5ff425271c.jpg">
+</div>
+
+<div id="answersFour" class="moreQuestions">
+  <img id="ans4_1" class="answers" onclick="rightAnswer()" src="https://i.ytimg.com/vi/IoFumLPO2nA/maxresdefault.jpg">
+  <img id="ans4_2" class="answers" onclick="wrongAnswer()" src="https://s-media-cache-ak0.pinimg.com/236x/99/17/26/9917260a4e423c1ab4e20289f915b9a9.jpg">
+</div>
+
+<div id="answersFive" class="moreQuestions">
+  <img id="ans5_1" class="answers" onclick="rightAnswer()" src="http://images4.wikia.nocookie.net/__cb20090715193215/starwars/images/6/69/DeltaSquad_RCcover.jpg">
+  <img id="ans5_2" class="answers" onclick="wrongAnswer()" src="http://vignette1.wikia.nocookie.net/theclonewiki/images/d/dc/ARC_Troopers_group.PNG/revision/latest?cb=20130316203727">
+</div>
+
+<h2>Score: &nbsp</h2> <h2 id="score">0</h2>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
